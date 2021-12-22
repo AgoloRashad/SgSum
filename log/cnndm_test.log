@@ -1,0 +1,256 @@
+[2021-12-20 10:05:56,609 INFO] adding document #0 to Dictionary(0 unique tokens: [])
+[2021-12-20 10:05:56,612 INFO] built Dictionary(39 unique tokens: ['bo', 'facebook', 'gay', 'it’', 'men']...) from 19 documents (total 123 corpus positions)
+[2021-12-20 10:05:56,612 INFO] collecting document frequencies
+[2021-12-20 10:05:56,613 INFO] PROGRESS: processing document #0
+[2021-12-20 10:05:56,614 INFO] calculating IDF weights for 19 documents and 39 features (107 matrix non-zeros)
+[2021-12-20 10:05:56,616 INFO] creating sparse index
+[2021-12-20 10:05:56,617 INFO] creating sparse matrix from corpus
+[2021-12-20 10:05:56,617 INFO] PROGRESS: at document #0
+[2021-12-20 10:05:56,623 INFO] created <19x39 sparse matrix of type '<class 'numpy.float32'>'
+	with 107 stored elements in Compressed Sparse Row format>
+[2021-12-20 10:05:56,749 INFO] adding document #0 to Dictionary(0 unique tokens: [])
+[2021-12-20 10:05:56,751 INFO] built Dictionary(151 unique tokens: ['crystal', 'offic', 'wound', 'depot', 'home']...) from 73 documents (total 591 corpus positions)
+[2021-12-20 10:05:56,752 INFO] collecting document frequencies
+[2021-12-20 10:05:56,752 INFO] PROGRESS: processing document #0
+[2021-12-20 10:05:56,752 INFO] calculating IDF weights for 73 documents and 151 features (552 matrix non-zeros)
+[2021-12-20 10:05:56,757 INFO] creating sparse index
+[2021-12-20 10:05:56,757 INFO] creating sparse matrix from corpus
+[2021-12-20 10:05:56,758 INFO] PROGRESS: at document #0
+[2021-12-20 10:05:56,763 INFO] created <73x151 sparse matrix of type '<class 'numpy.float32'>'
+	with 552 stored elements in Compressed Sparse Row format>
+[2021-12-20 10:05:56,827 INFO] adding document #0 to Dictionary(0 unique tokens: [])
+[2021-12-20 10:05:56,827 INFO] built Dictionary(11 unique tokens: ['st.', 'top', 'best', 'egg', 'minneapoli']...) from 8 documents (total 25 corpus positions)
+[2021-12-20 10:05:56,828 INFO] collecting document frequencies
+[2021-12-20 10:05:56,828 INFO] PROGRESS: processing document #0
+[2021-12-20 10:05:56,828 INFO] calculating IDF weights for 8 documents and 11 features (19 matrix non-zeros)
+[2021-12-20 10:05:56,829 INFO] creating sparse index
+[2021-12-20 10:05:56,829 INFO] creating sparse matrix from corpus
+[2021-12-20 10:05:56,829 INFO] PROGRESS: at document #0
+[2021-12-20 10:05:56,830 INFO] created <8x11 sparse matrix of type '<class 'numpy.float32'>'
+	with 19 stored elements in Compressed Sparse Row format>
+[2021-12-20 10:05:56,914 INFO] adding document #0 to Dictionary(0 unique tokens: [])
+[2021-12-20 10:05:56,915 INFO] built Dictionary(108 unique tokens: ['adam', 'believ', 'build', 'bull’', 'cellar']...) from 49 documents (total 356 corpus positions)
+[2021-12-20 10:05:56,916 INFO] collecting document frequencies
+[2021-12-20 10:05:56,916 INFO] PROGRESS: processing document #0
+[2021-12-20 10:05:56,916 INFO] calculating IDF weights for 49 documents and 108 features (342 matrix non-zeros)
+[2021-12-20 10:05:56,920 INFO] creating sparse index
+[2021-12-20 10:05:56,920 INFO] creating sparse matrix from corpus
+[2021-12-20 10:05:56,920 INFO] PROGRESS: at document #0
+[2021-12-20 10:05:56,924 INFO] created <49x108 sparse matrix of type '<class 'numpy.float32'>'
+	with 342 stored elements in Compressed Sparse Row format>
+[2021-12-20 10:05:57,021 INFO] adding document #0 to Dictionary(0 unique tokens: [])
+[2021-12-20 10:05:57,022 INFO] built Dictionary(69 unique tokens: ['centr', 'custom', 'hope', 'paint', 'pari']...) from 29 documents (total 191 corpus positions)
+[2021-12-20 10:05:57,022 INFO] collecting document frequencies
+[2021-12-20 10:05:57,023 INFO] PROGRESS: processing document #0
+[2021-12-20 10:05:57,023 INFO] calculating IDF weights for 29 documents and 69 features (186 matrix non-zeros)
+[2021-12-20 10:05:57,025 INFO] creating sparse index
+[2021-12-20 10:05:57,025 INFO] creating sparse matrix from corpus
+[2021-12-20 10:05:57,025 INFO] PROGRESS: at document #0
+[2021-12-20 10:05:57,027 INFO] created <29x69 sparse matrix of type '<class 'numpy.float32'>'
+	with 186 stored elements in Compressed Sparse Row format>
+[2021-12-20 10:05:57,099 INFO] adding document #0 to Dictionary(0 unique tokens: [])
+[2021-12-20 10:05:57,101 INFO] built Dictionary(77 unique tokens: ['aircraft', 'cross', 'forc', 'isra', 'israel']...) from 42 documents (total 261 corpus positions)
+[2021-12-20 10:05:57,102 INFO] collecting document frequencies
+[2021-12-20 10:05:57,102 INFO] PROGRESS: processing document #0
+[2021-12-20 10:05:57,104 INFO] calculating IDF weights for 42 documents and 77 features (256 matrix non-zeros)
+[2021-12-20 10:05:57,106 INFO] creating sparse index
+[2021-12-20 10:05:57,106 INFO] creating sparse matrix from corpus
+[2021-12-20 10:05:57,107 INFO] PROGRESS: at document #0
+[2021-12-20 10:05:57,110 INFO] created <42x77 sparse matrix of type '<class 'numpy.float32'>'
+	with 256 stored elements in Compressed Sparse Row format>
+[2021-12-20 10:05:57,229 INFO] adding document #0 to Dictionary(0 unique tokens: [])
+[2021-12-20 10:05:57,232 INFO] built Dictionary(157 unique tokens: ['golden', 'secession.', 'version', 'california', 'counti']...) from 70 documents (total 520 corpus positions)
+[2021-12-20 10:05:57,233 INFO] collecting document frequencies
+[2021-12-20 10:05:57,233 INFO] PROGRESS: processing document #0
+[2021-12-20 10:05:57,234 INFO] calculating IDF weights for 70 documents and 157 features (501 matrix non-zeros)
+[2021-12-20 10:05:57,239 INFO] creating sparse index
+[2021-12-20 10:05:57,240 INFO] creating sparse matrix from corpus
+[2021-12-20 10:05:57,240 INFO] PROGRESS: at document #0
+[2021-12-20 10:05:57,245 INFO] created <70x157 sparse matrix of type '<class 'numpy.float32'>'
+	with 501 stored elements in Compressed Sparse Row format>
+[2021-12-20 10:05:57,548 INFO] adding document #0 to Dictionary(0 unique tokens: [])
+[2021-12-20 10:05:57,551 INFO] built Dictionary(261 unique tokens: ['action', 'affirm', 'back', 'case', 'consid']...) from 99 documents (total 934 corpus positions)
+[2021-12-20 10:05:57,552 INFO] collecting document frequencies
+[2021-12-20 10:05:57,553 INFO] PROGRESS: processing document #0
+[2021-12-20 10:05:57,553 INFO] calculating IDF weights for 99 documents and 261 features (883 matrix non-zeros)
+[2021-12-20 10:05:57,561 INFO] creating sparse index
+[2021-12-20 10:05:57,562 INFO] creating sparse matrix from corpus
+[2021-12-20 10:05:57,562 INFO] PROGRESS: at document #0
+[2021-12-20 10:05:57,571 INFO] created <99x261 sparse matrix of type '<class 'numpy.float32'>'
+	with 883 stored elements in Compressed Sparse Row format>
+[2021-12-20 10:05:57,743 INFO] adding document #0 to Dictionary(0 unique tokens: [])
+[2021-12-20 10:05:57,749 INFO] built Dictionary(350 unique tokens: ['11', 'appear', 'cole/ap', 'extend', 'eye']...) from 71 documents (total 1028 corpus positions)
+[2021-12-20 10:05:57,750 INFO] collecting document frequencies
+[2021-12-20 10:05:57,751 INFO] PROGRESS: processing document #0
+[2021-12-20 10:05:57,752 INFO] calculating IDF weights for 71 documents and 350 features (987 matrix non-zeros)
+[2021-12-20 10:05:57,759 INFO] creating sparse index
+[2021-12-20 10:05:57,760 INFO] creating sparse matrix from corpus
+[2021-12-20 10:05:57,760 INFO] PROGRESS: at document #0
+[2021-12-20 10:05:57,768 INFO] created <71x350 sparse matrix of type '<class 'numpy.float32'>'
+	with 987 stored elements in Compressed Sparse Row format>
+[2021-12-20 10:05:58,140 INFO] adding document #0 to Dictionary(0 unique tokens: [])
+[2021-12-20 10:05:58,143 INFO] built Dictionary(228 unique tokens: ['acquisit', 'build', 'compani', 'devic', 'form']...) from 148 documents (total 815 corpus positions)
+[2021-12-20 10:05:58,144 INFO] collecting document frequencies
+[2021-12-20 10:05:58,144 INFO] PROGRESS: processing document #0
+[2021-12-20 10:05:58,145 INFO] calculating IDF weights for 148 documents and 228 features (761 matrix non-zeros)
+[2021-12-20 10:05:58,155 INFO] creating sparse index
+[2021-12-20 10:05:58,155 INFO] creating sparse matrix from corpus
+[2021-12-20 10:05:58,155 INFO] PROGRESS: at document #0
+[2021-12-20 10:05:58,163 INFO] created <148x228 sparse matrix of type '<class 'numpy.float32'>'
+	with 761 stored elements in Compressed Sparse Row format>
+[2021-12-20 10:10:47,889 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 10:10:47,897 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 10:10:49,668 INFO] args.is_distributed: False
+[2021-12-20 10:15:59,978 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 10:15:59,984 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 10:16:01,746 INFO] args.is_distributed: False
+[2021-12-20 10:17:49,029 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 10:17:49,035 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 10:17:50,802 INFO] args.is_distributed: False
+[2021-12-20 11:08:24,048 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 11:08:24,060 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 11:08:25,859 INFO] args.is_distributed: False
+[2021-12-20 11:11:08,779 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 11:11:08,786 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 11:11:10,575 INFO] args.is_distributed: False
+[2021-12-20 11:41:06,323 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 11:41:06,354 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 11:41:08,115 INFO] args.is_distributed: False
+[2021-12-20 11:43:32,831 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 11:43:32,837 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 11:43:34,656 INFO] args.is_distributed: False
+[2021-12-20 11:45:53,879 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 11:45:53,886 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 11:45:55,674 INFO] args.is_distributed: False
+[2021-12-20 11:46:51,431 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 11:46:51,435 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 11:46:53,238 INFO] args.is_distributed: False
+[2021-12-20 11:52:16,014 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 11:52:16,021 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 11:52:17,805 INFO] args.is_distributed: False
+[2021-12-20 12:01:54,720 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 12:01:54,726 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 12:01:56,518 INFO] args.is_distributed: False
+[2021-12-20 12:05:52,213 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 12:05:52,225 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 12:05:55,556 INFO] args.is_distributed: False
+[2021-12-20 12:09:08,521 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 12:09:08,527 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 12:09:10,330 INFO] args.is_distributed: False
+[2021-12-20 12:11:20,218 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 12:11:20,225 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 12:11:21,993 INFO] args.is_distributed: False
+[2021-12-20 12:17:32,921 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 12:17:32,927 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-20 12:17:34,721 INFO] args.is_distributed: False
+[2021-12-20 12:17:43,477 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-20 12:17:43,478 INFO] Final test result:
+[2021-12-20 12:17:43,678 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-20 12:19:26,497 INFO] candidata path: roberta_results//test_final_preds.candidate
+[2021-12-21 09:37:01,957 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 09:37:02,339 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 09:37:05,744 INFO] args.is_distributed: False
+[2021-12-21 11:40:12,714 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 11:40:12,720 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 11:40:14,334 INFO] args.is_distributed: False
+[2021-12-21 11:40:24,939 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-21 11:40:24,940 INFO] Final test result:
+[2021-12-21 11:40:25,131 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 11:42:08,792 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 11:42:08,798 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 11:42:10,407 INFO] args.is_distributed: False
+[2021-12-21 11:42:20,219 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-21 11:42:20,220 INFO] Final test result:
+[2021-12-21 11:42:20,404 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 11:50:26,385 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 11:50:26,390 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 11:53:27,753 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 11:53:27,759 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 11:53:29,341 INFO] args.is_distributed: False
+[2021-12-21 11:53:39,510 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-21 11:53:39,511 INFO] Final test result:
+[2021-12-21 11:53:39,833 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 11:58:30,693 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 11:58:30,699 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 11:58:32,263 INFO] args.is_distributed: False
+[2021-12-21 11:58:41,472 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-21 11:58:41,473 INFO] Final test result:
+[2021-12-21 11:58:41,635 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:00:15,957 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:00:15,963 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 12:00:17,561 INFO] args.is_distributed: False
+[2021-12-21 12:00:26,781 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-21 12:00:26,782 INFO] Final test result:
+[2021-12-21 12:00:26,948 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:06:30,608 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:06:30,616 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 12:09:41,848 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:09:41,854 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 12:12:18,865 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:12:18,870 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 12:15:22,782 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:15:22,788 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 12:17:24,424 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:17:24,430 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 12:20:38,113 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:20:38,118 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 12:23:30,405 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:23:30,410 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 12:23:53,958 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:23:53,964 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 12:24:59,351 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 12:24:59,357 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:01:21,999 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:01:22,006 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:02:00,341 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:02:00,346 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:02:22,267 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:02:22,274 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:02:42,215 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:02:42,219 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:03:16,806 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:03:16,812 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:13:22,104 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:13:22,109 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:14:35,750 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:14:35,755 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:22:54,937 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:22:54,942 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:23:28,310 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:23:28,315 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:25:33,243 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:25:33,248 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:25:57,607 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:25:57,613 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:27:38,840 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:27:38,847 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:29:10,210 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:29:10,216 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:38:08,200 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:38:08,205 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:41:11,191 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:41:11,196 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:41:12,790 INFO] args.is_distributed: False
+[2021-12-21 14:41:23,849 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-21 14:41:23,850 INFO] Final test result:
+[2021-12-21 14:41:24,057 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:43:55,992 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-21 14:43:55,998 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-21 14:43:57,608 INFO] args.is_distributed: False
+[2021-12-21 14:44:06,919 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-21 14:44:06,919 INFO] Final test result:
+[2021-12-21 14:44:07,090 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-22 13:16:04,671 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-22 13:16:05,287 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-22 13:16:09,714 INFO] args.is_distributed: False
+[2021-12-22 13:19:11,426 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-22 13:19:11,426 INFO] Final test result:
+[2021-12-22 13:19:11,611 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-22 13:20:28,927 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-22 13:20:28,932 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-22 13:27:00,879 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-22 13:27:00,885 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-22 13:27:02,562 INFO] args.is_distributed: False
+[2021-12-22 13:27:12,160 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-22 13:27:12,161 INFO] Final test result:
+[2021-12-22 13:27:12,333 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
