@@ -114,6 +114,7 @@ class GraphSumModel(object):
         self.c_sent_num = args.candidate_sentence_num
         self.s_sent_num = args.selected_sentence_num
         self.c_summary_num = len(list(itertools.combinations(list(range(self.c_sent_num)), self.s_sent_num)))
+        self.sent_score_threshold = args.sent_score_threshold
 
     def encode(self, enc_input, cls_ids):
         """Encoding the source input"""
@@ -482,12 +483,10 @@ class GraphSumModel(object):
                                     initializer=fluid.initializer.TruncatedNormal(scale=0.02)),
                                 bias_attr=fluid.ParamAttr(
                                     name='sent_score_fc.bias',
-                                    initializer=fluid.initializer.Constant(value=0.0, force_cpu=True)))
+                                    initializer=fluid.initializer.Constant(value=0.0)))
         # (batch_size, doc_num, sent_num, 1)
-        correct_scores = layers.elementwise_mul(x=sent_scores, y=sent_labels_weight, axis=0)
-        layers.Print(sent_labels_weight, message="sent_labels_weight", summarize=-1)
-        layers.Print(sent_scores, message="sent_scores", summarize=-1)
-        layers.Print(correct_scores, message="correct_scores", summarize=-1)
+        selected_scores = sent_scores > self.sent_score_threshold # select sentence above the threshold
+        correct_scores = layers.elementwise_mul(x=layers.cast(x=selected_scores, dtype="float32"), y=sent_scores, axis=0)
         reshaped_correct_scores = layers.reshape(correct_scores, shape=[layers.shape(correct_scores)[0], -1, 1])
         
         score_rank = layers.argsort(input=reshaped_correct_scores, axis=1, descending=True)[1]
@@ -604,5 +603,4 @@ class GraphSumModel(object):
         }
         for k, v in graph_vars.items():
             v.persistable = True
-        print("TRuee")
         return pyreader, graph_vars
