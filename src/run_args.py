@@ -96,6 +96,10 @@ train_g.add_arg("max_out_len", int, 300, "max length of decoding.")
 train_g.add_arg("min_out_len", int, 200, "min length of decoding.")
 train_g.add_arg("block_trigram", bool, False, "remove repeated trigrams in summary.")
 
+ # for infernce 
+infernce_g = ArgumentGroup(parser, "Infernce", "Infernce options.")
+infernce_g.add_arg("sent_score_threshold", float, 0.09, "sentence score threshold")
+
 data_g = ArgumentGroup(parser, "data", "Data paths, vocab paths and data processing options")
 data_g.add_arg("train_set", str, None, "Path to training data.")
 data_g.add_arg("test_set", str, None, "Path to test data.")

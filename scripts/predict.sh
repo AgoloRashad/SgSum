@@ -34,7 +34,7 @@ python -u src/run_roberta.py \
                --dev_set ${TASK_DATA_PATH}/valid \
                --test_set ${TASK_DATA_PATH}/test \
                --config_path model_config/roberta_graphsum_config.json \
-               --init_checkpoint multinews_extra/ \
+               --init_checkpoint /content/EMNLP2021-SgSum/multinews_extra/ \
                --decode_path roberta_results/ \
                --lr_scheduler ${lr_scheduler} \
                --save_steps 10000 \

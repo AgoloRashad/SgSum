@@ -284,3 +284,4 @@
 [2021-12-23 01:16:12,857 INFO] candidata path: /roberta_results/test_final_preds.candidate
 [2021-12-23 01:16:13,997 INFO] Rouges rouge-1: 47.580000, rouge-2: 15.560000, rouge-l: 42.560000 at step /roberta_results/test_final_preds
 , elapsed time: 4.891794 s
+[2021-12-26 14:24:45,133 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
