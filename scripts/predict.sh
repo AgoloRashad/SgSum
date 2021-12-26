@@ -62,4 +62,5 @@ python -u src/run_roberta.py \
                --num_iteration_per_drop_scope 10 \
                --log_file "log/cnndm_test.log" \
                --report_orcale false \
-               --random_seed 1 > log/lanch.log 2>&1
+               --random_seed 1 > log/lanch.log 2>&1 \
+               --do_preprocessing true
