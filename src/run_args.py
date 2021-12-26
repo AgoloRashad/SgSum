@@ -171,11 +171,11 @@ graphsum_g.add_arg("selected_sentence_num", int, 3, "Number of selected sentence
 
 # for roberta
 roberta_graphsum_g = ArgumentGroup(parser, "roberta args", "roberta options.")
-roberta_graphsum_g.add_arg("roberta_vocab_file", str, 'roberta_config/vocab.txt', "roberta vocab")
-roberta_graphsum_g.add_arg("encoder_json_file", str, 'roberta_config/encoder.json', 'bpt map')
-roberta_graphsum_g.add_arg("vocab_bpe_file", str, 'roberta_config/vocab.bpe', "vocab bpe")
+roberta_graphsum_g.add_arg("roberta_vocab_file", str, '/content/EMNLP2021-SgSum/roberta_config/vocab.txt', "roberta vocab")
+roberta_graphsum_g.add_arg("encoder_json_file", str, '/content/EMNLP2021-SgSum/roberta_config/encoder.json', 'bpt map')
+roberta_graphsum_g.add_arg("vocab_bpe_file", str, '/content/EMNLP2021-SgSum/roberta_config/vocab.bpe', "vocab bpe")
 roberta_graphsum_g.add_arg("use_interval", bool, False, "whether model interval")
-roberta_graphsum_g.add_arg("roberta_config_path", str, "roberta_config/roberta_config.json",
+roberta_graphsum_g.add_arg("roberta_config_path", str, "/content/EMNLP2021-SgSum/roberta_config/roberta_config.json",
                            "The file to save roberta configuration.")
 
 # for ernie

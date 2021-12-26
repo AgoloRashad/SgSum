@@ -13,7 +13,7 @@ source model_config/roberta_graphsum_model_conf
 
 python -u src/run_roberta.py \
                --model_name "multigraphsum" \
-               --use_cuda false \
+               --use_cuda true \
                --is_distributed false \
                --use_multi_gpu_test false \
                --use_fast_executor ${e_executor:-"true"} \
@@ -35,7 +35,7 @@ python -u src/run_roberta.py \
                --test_set ${TASK_DATA_PATH}/test \
                --config_path model_config/roberta_graphsum_config.json \
                --init_checkpoint /content/EMNLP2021-SgSum/multinews_extra/ \
-               --decode_path roberta_results/ \
+               --decode_path /roberta_results \
                --lr_scheduler ${lr_scheduler} \
                --save_steps 10000 \
                --weight_decay ${WEIGHT_DECAY} \
