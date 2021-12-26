@@ -315,3 +315,12 @@
 [2021-12-26 14:49:37,374 INFO] candidata path: /roberta_results/test_final_preds.candidate
 [2021-12-26 14:49:38,360 INFO] Rouges rouge-1: 47.580000, rouge-2: 15.560000, rouge-l: 42.560000 at step /roberta_results/test_final_preds
 , elapsed time: 4.628029 s
+[2021-12-26 15:14:48,137 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-26 15:14:48,138 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-26 15:14:48,759 INFO] args.is_distributed: False
+[2021-12-26 15:14:50,929 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-26 15:14:50,929 INFO] Final test result:
+[2021-12-26 15:14:51,085 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-26 15:14:55,722 INFO] candidata path: /roberta_results/test_final_preds.candidate
+[2021-12-26 15:14:56,736 INFO] Rouges rouge-1: 47.580000, rouge-2: 15.560000, rouge-l: 42.560000 at step /roberta_results/test_final_preds
+, elapsed time: 4.636699 s

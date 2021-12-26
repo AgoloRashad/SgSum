@@ -18,7 +18,6 @@ from __future__ import print_function
 
 import os
 import sys
-sys.path.append("/content/drive/MyDrive/EMNLP2021-SgSum/src")
 
 # import argparse
 from utils.args import print_arguments
@@ -44,8 +43,13 @@ if __name__ == "__main__":
       
         do_format_to_json(args)
         do_format_to_paddle(args)
-
-        args.test_set = args.data_path
+         
+        if args.do_train:
+          args.train_set = args.data_path
+        elif args.do_val:
+          args.dev_set = args.data_path
+        elif args.do_test:
+          args.test_set = args.data_path
 
     if args.model_name == 'graphsum':
         run_graphsum(args)

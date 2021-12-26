@@ -100,12 +100,12 @@ warmup_steps: 10000
 weight_decay: 0.01
 weight_sharing: True
 ------------------------------------------------
-1.849817
+1.895522
 Written test.0.json
-1.940979
-1.941016
+1.982859
+1.982924
 Ignore src/data_preprocess/input_data/test.0.json
-2.01485
+2.062882
 attention_probs_dropout_prob: 0.1
 dec_graph_layers: 6
 dec_word_pos_embedding_name: dec_word_pos_embedding
@@ -118,7 +118,7 @@ postprocess_command: da
 preprocess_command: n
 word_embedding_name: word_embedding
 ------------------------------------------------
-[2021-12-26 14:49:29,895 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+[2021-12-26 15:14:48,137 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
 attention_probs_dropout_prob: 0.1
 hidden_act: gelu
 hidden_dropout_prob: 0.1
@@ -132,12 +132,12 @@ task_type_vocab_size: 0
 type_vocab_size: 0
 vocab_size: 50265
 ------------------------------------------------
-[2021-12-26 14:49:29,896 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
-[2021-12-26 14:49:30,500 INFO] args.is_distributed: False
+[2021-12-26 15:14:48,138 WARNING] paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[2021-12-26 15:14:48,759 INFO] args.is_distributed: False
 HERE
 CUDAPlace(0)
-W1226 14:49:30.518368  6563 device_context.cc:252] Please NOTE: device: 0, CUDA Capability: 37, Driver API Version: 11.2, Runtime API Version: 10.0
-W1226 14:49:30.522593  6563 device_context.cc:260] device: 0, cuDNN Version: 7.6.
+W1226 15:14:48.780537  6934 device_context.cc:252] Please NOTE: device: 0, CUDA Capability: 37, Driver API Version: 11.2, Runtime API Version: 10.0
+W1226 15:14:48.785224  6934 device_context.cc:260] device: 0, cuDNN Version: 7.6.
 Load model from /content/EMNLP2021-SgSum/multinews_extra/
 Following params not existed in the params file:
 []
@@ -145,90 +145,90 @@ FROM HERE
 src/data_preprocess/input_data
 HENAA
 src/data_preprocess/input_data
-[2021-12-26 14:49:32,601 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
-[2021-12-26 14:49:32,601 INFO] Final test result:
-[2021-12-26 14:49:32,746 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
-1640530173	score_sorted	The place is:CUDAPlace(0)
+[2021-12-26 15:14:50,929 INFO] Loading dataset from src/data_preprocess/input_data/test.0.json, number of examples: 10
+[2021-12-26 15:14:50,929 INFO] Final test result:
+[2021-12-26 15:14:51,085 INFO] {'BOS': 0, 'EOS': 50264, 'PAD': 1, 'EOQ': 2}
+1640531691	score_sorted	The place is:CUDAPlace(0)
 Tensor[argsort_1.tmp_0]
 	shape: [1,28,1,]
 	dtype: f
 	data: 0.459001,0.404853,0.349727,0.310867,0.267758,0.165024,0.163456,0.159688,0.154458,0.15414,0.141494,0.134994,0.133958,0.133462,0.127038,0.124786,0.124032,0.114888,0.0931378,0.0913433,0.0913433,0.0913433,0.0913433,0.0913433,0.0913433,0.0913433,0.0913433,0.0913433,
-1640530173	cand_summary_sent_ids	The place is:CUDAPlace(0)
+1640531691	cand_summary_sent_ids	The place is:CUDAPlace(0)
 Tensor[argsort_0.tmp_1_slice_0]
 	shape: [1,10,1,]
 	dtype: l
 	data: 18,16,17,15,14,7,6,5,1,9,
-1640530173	score_sorted	The place is:CUDAPlace(0)
+1640531692	score_sorted	The place is:CUDAPlace(0)
 Tensor[argsort_1.tmp_0]
 	shape: [1,69,1,]
 	dtype: f
 	data: 0.51399,0.503374,0.493451,0.46598,0.452849,0.441356,0.375065,0.329038,0.324991,0.320421,0.278695,0.228873,0.197353,0.190739,0.185911,0.17121,0.163744,0.152421,0.146656,0.13917,0.136749,0.136389,0.136111,0.133086,0.128696,0.122842,0.117963,0.097713,0.0969869,0.0955973,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1640530173	cand_summary_sent_ids	The place is:CUDAPlace(0)
+1640531692	cand_summary_sent_ids	The place is:CUDAPlace(0)
 Tensor[argsort_0.tmp_1_slice_0]
 	shape: [1,10,1,]
 	dtype: l
 	data: 51,54,49,55,53,58,50,61,62,59,
-1640530174	score_sorted	The place is:CUDAPlace(0)
+1640531692	score_sorted	The place is:CUDAPlace(0)
 Tensor[argsort_1.tmp_0]
 	shape: [1,69,1,]
 	dtype: f
 	data: 0.494616,0.438234,0.437641,0.436195,0.397383,0.377746,0.357375,0.351385,0.347406,0.298523,0.291328,0.288509,0.27517,0.263742,0.236549,0.211775,0.211193,0.202323,0.191541,0.16836,0.162921,0.162921,0.162921,0.162921,0.162921,0.162921,0.162921,0.162921,0.162921,0.162513,0.162428,0.160065,0.145444,0.145239,0.142928,0.140984,0.140491,0.140073,0.138793,0.138247,0.137973,0.137387,0.137266,0.136701,0.117346,0.113618,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1640530174	cand_summary_sent_ids	The place is:CUDAPlace(0)
+1640531692	cand_summary_sent_ids	The place is:CUDAPlace(0)
 Tensor[argsort_0.tmp_1_slice_0]
 	shape: [1,10,1,]
 	dtype: l
 	data: 1,10,3,49,11,28,30,8,37,5,
-1640530175	score_sorted	The place is:CUDAPlace(0)
+1640531693	score_sorted	The place is:CUDAPlace(0)
 Tensor[argsort_1.tmp_0]
 	shape: [2,72,1,]
 	dtype: f
 	data: 0.71397,0.527049,0.507422,0.50244,0.456433,0.454462,0.4419,0.43733,0.426575,0.384244,0.38298,0.378274,0.376343,0.375579,0.374784,0.348275,0.347677,0.330919,0.304847,0.292813,0.250549,0.227666,0.208298,0.202011,0.198246,0.169354,0.163324,0.163324,0.163324,0.163324,0.163324,0.163324,0.163324,0.163324,0.163324,0.163324,0.163324,0.153899,0.145646,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.11399,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0.0946672,0,0.568396,0.391267,0.358815,0.35062,0.33092,0.329465,0.307467,0.30326,0.282675,0.274409,0.270233,0.262896,0.261685,0.241685,0.207342,0.205715,0.204981,0.202299,0.194141,0.174211,0.171304,0.164102,0.131321,0.125095,0.117892,0.115227,0.110148,0.0921355,0.0917192,0.0912916,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1640530175	cand_summary_sent_ids	The place is:CUDAPlace(0)
+1640531693	cand_summary_sent_ids	The place is:CUDAPlace(0)
 Tensor[argsort_0.tmp_1_slice_0]
 	shape: [2,10,1,]
 	dtype: l
 	data: 48,26,3,2,24,51,31,27,54,53,3,24,25,31,7,12,2,8,26,11,
-1640530175	score_sorted	The place is:CUDAPlace(0)
+1640531694	score_sorted	The place is:CUDAPlace(0)
 Tensor[argsort_1.tmp_0]
 	shape: [1,56,1,]
 	dtype: f
 	data: 0.751829,0.470304,0.340234,0.336966,0.311421,0.277304,0.253591,0.241208,0.233336,0.227312,0.22486,0.218756,0.194979,0.19366,0.184775,0.183471,0.173447,0.158554,0.143522,0.127976,0.126873,0.126607,0.12156,0.118112,0.116418,0.116256,0.114201,0.113318,0.106207,0.102781,0.0999667,0.0952916,0.0936092,0.0910815,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1640530175	cand_summary_sent_ids	The place is:CUDAPlace(0)
+1640531694	cand_summary_sent_ids	The place is:CUDAPlace(0)
 Tensor[argsort_0.tmp_1_slice_0]
 	shape: [1,10,1,]
 	dtype: l
 	data: 2,3,7,6,28,9,18,8,0,30,
-1640530176	score_sorted	The place is:CUDAPlace(0)
+1640531694	score_sorted	The place is:CUDAPlace(0)
 Tensor[argsort_1.tmp_0]
 	shape: [1,40,1,]
 	dtype: f
 	data: 0.402867,0.332926,0.296878,0.29328,0.272685,0.24335,0.213246,0.192625,0.184403,0.178925,0.162274,0.161841,0.154277,0.144659,0.137299,0.130474,0.130334,0.122955,0.110314,0.107813,0.107498,0.107422,0.107315,0.107209,0.106006,0.105545,0.103697,0.0926004,0,0,0,0,0,0,0,0,0,0,0,0,
-1640530176	cand_summary_sent_ids	The place is:CUDAPlace(0)
+1640531694	cand_summary_sent_ids	The place is:CUDAPlace(0)
 Tensor[argsort_0.tmp_1_slice_0]
 	shape: [1,10,1,]
 	dtype: l
 	data: 9,0,23,7,22,21,24,3,20,1,
-1640530176	score_sorted	The place is:CUDAPlace(0)
+1640531695	score_sorted	The place is:CUDAPlace(0)
 Tensor[argsort_1.tmp_0]
 	shape: [1,46,1,]
 	dtype: f
 	data: 0.611688,0.574903,0.52453,0.523769,0.522391,0.506129,0.494476,0.441724,0.42763,0.361578,0.269776,0.260148,0.200733,0.197158,0.183345,0.177656,0.129393,0.12562,0.118461,0.109511,0.107205,0.0941855,0.0902409,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1640530176	cand_summary_sent_ids	The place is:CUDAPlace(0)
+1640531695	cand_summary_sent_ids	The place is:CUDAPlace(0)
 Tensor[argsort_0.tmp_1_slice_0]
 	shape: [1,10,1,]
 	dtype: l
 	data: 5,4,26,3,28,27,2,1,25,24,
-1640530177	score_sorted	The place is:CUDAPlace(0)
+1640531695	score_sorted	The place is:CUDAPlace(0)
 Tensor[argsort_1.tmp_0]
 	shape: [1,108,1,]
 	dtype: f
 	data: 0.399383,0.370758,0.252469,0.20096,0.18666,0.170979,0.14692,0.144683,0.142329,0.134268,0.132696,0.132696,0.132696,0.132696,0.132696,0.132696,0.132696,0.131128,0.12872,0.120454,0.116759,0.107943,0.107829,0.106525,0.106017,0.105193,0.103329,0.100689,0.0999406,0.0994946,0.0972182,0.0970252,0.0955854,0.095295,0.0942529,0.0933824,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1640530177	cand_summary_sent_ids	The place is:CUDAPlace(0)
+1640531695	cand_summary_sent_ids	The place is:CUDAPlace(0)
 Tensor[argsort_0.tmp_1_slice_0]
 	shape: [1,10,1,]
 	dtype: l
 	data: 40,36,39,43,0,88,82,79,4,83,
-[2021-12-26 14:49:37,374 INFO] candidata path: /roberta_results/test_final_preds.candidate
+[2021-12-26 15:14:55,722 INFO] candidata path: /roberta_results/test_final_preds.candidate
 /usr/local/lib/python3.7/dist-packages/numpy/core/fromnumeric.py:3373: RuntimeWarning: Mean of empty slice.
   out=out, **kwargs)
 /usr/local/lib/python3.7/dist-packages/numpy/core/_methods.py:170: RuntimeWarning: invalid value encountered in double_scalars
@@ -237,25 +237,25 @@ Tensor[argsort_0.tmp_1_slice_0]
 + PREFIX=/content/SgSum/roberta_results/test_final_preds.gold
 ++ pwd
 + python pyrouge_set_rouge_path.py /content/SgSum/src/eval/tasks/cnndm/file2rouge/
-2021-12-26 14:49:37,516 [MainThread  ] [INFO ]  Set ROUGE home directory to /content/SgSum/src/eval/tasks/cnndm/file2rouge/.
+2021-12-26 15:14:55,870 [MainThread  ] [INFO ]  Set ROUGE home directory to /content/SgSum/src/eval/tasks/cnndm/file2rouge/.
 + python cnndm/eval.py --pred /content/SgSum/roberta_results/test_final_preds.candidate --gold /content/SgSum/roberta_results/test_final_preds.gold --trunc_len 250 --perl
-12/26/2021 14:49:37 - INFO - __main__ -   ***** Evaluation: /content/SgSum/roberta_results/test_final_preds.candidate *****
-12/26/2021 14:49:37 - INFO - __main__ -   ***** Evaluation: /content/SgSum/roberta_results/test_final_preds.gold *****
-2021-12-26 14:49:37,729 [MainThread  ] [INFO ]  Writing summaries.
-12/26/2021 14:49:37 - INFO - global -   Writing summaries.
-2021-12-26 14:49:37,729 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpmfiqvxq4/tmpvdpii5t3/system and model files to /tmp/tmpmfiqvxq4/tmpvdpii5t3/model.
-12/26/2021 14:49:37 - INFO - global -   Processing summaries. Saving system files to /tmp/tmpmfiqvxq4/tmpvdpii5t3/system and model files to /tmp/tmpmfiqvxq4/tmpvdpii5t3/model.
-2021-12-26 14:49:37,729 [MainThread  ] [INFO ]  Processing files in /tmp/tmpmfiqvxq4/rouge-tmp-2021-12-26-14-49-37/candidate/.
-12/26/2021 14:49:37 - INFO - global -   Processing files in /tmp/tmpmfiqvxq4/rouge-tmp-2021-12-26-14-49-37/candidate/.
-2021-12-26 14:49:37,731 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpmfiqvxq4/tmpvdpii5t3/system.
-12/26/2021 14:49:37 - INFO - global -   Saved processed files to /tmp/tmpmfiqvxq4/tmpvdpii5t3/system.
-2021-12-26 14:49:37,731 [MainThread  ] [INFO ]  Processing files in /tmp/tmpmfiqvxq4/rouge-tmp-2021-12-26-14-49-37/reference/.
-12/26/2021 14:49:37 - INFO - global -   Processing files in /tmp/tmpmfiqvxq4/rouge-tmp-2021-12-26-14-49-37/reference/.
-2021-12-26 14:49:37,733 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpmfiqvxq4/tmpvdpii5t3/model.
-12/26/2021 14:49:37 - INFO - global -   Saved processed files to /tmp/tmpmfiqvxq4/tmpvdpii5t3/model.
-2021-12-26 14:49:37,733 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpmfiqvxq4/tmpnkpsyhix/rouge_conf.xml
-12/26/2021 14:49:37 - INFO - global -   Written ROUGE configuration to /tmp/tmpmfiqvxq4/tmpnkpsyhix/rouge_conf.xml
-2021-12-26 14:49:37,734 [MainThread  ] [INFO ]  Running ROUGE with command /content/SgSum/src/eval/tasks/cnndm/file2rouge/ROUGE-1.5.5.pl -e /content/SgSum/src/eval/tasks/cnndm/file2rouge/data -c 95 -m -r 1000 -n 2 -a /tmp/tmpmfiqvxq4/tmpnkpsyhix/rouge_conf.xml
-12/26/2021 14:49:37 - INFO - global -   Running ROUGE with command /content/SgSum/src/eval/tasks/cnndm/file2rouge/ROUGE-1.5.5.pl -e /content/SgSum/src/eval/tasks/cnndm/file2rouge/data -c 95 -m -r 1000 -n 2 -a /tmp/tmpmfiqvxq4/tmpnkpsyhix/rouge_conf.xml
-[2021-12-26 14:49:38,360 INFO] Rouges rouge-1: 47.580000, rouge-2: 15.560000, rouge-l: 42.560000 at step /roberta_results/test_final_preds
-, elapsed time: 4.628029 s
+12/26/2021 15:14:56 - INFO - __main__ -   ***** Evaluation: /content/SgSum/roberta_results/test_final_preds.candidate *****
+12/26/2021 15:14:56 - INFO - __main__ -   ***** Evaluation: /content/SgSum/roberta_results/test_final_preds.gold *****
+2021-12-26 15:14:56,098 [MainThread  ] [INFO ]  Writing summaries.
+12/26/2021 15:14:56 - INFO - global -   Writing summaries.
+2021-12-26 15:14:56,099 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmprln4xlsg/tmp_yc97mc3/system and model files to /tmp/tmprln4xlsg/tmp_yc97mc3/model.
+12/26/2021 15:14:56 - INFO - global -   Processing summaries. Saving system files to /tmp/tmprln4xlsg/tmp_yc97mc3/system and model files to /tmp/tmprln4xlsg/tmp_yc97mc3/model.
+2021-12-26 15:14:56,099 [MainThread  ] [INFO ]  Processing files in /tmp/tmprln4xlsg/rouge-tmp-2021-12-26-15-14-56/candidate/.
+12/26/2021 15:14:56 - INFO - global -   Processing files in /tmp/tmprln4xlsg/rouge-tmp-2021-12-26-15-14-56/candidate/.
+2021-12-26 15:14:56,102 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmprln4xlsg/tmp_yc97mc3/system.
+12/26/2021 15:14:56 - INFO - global -   Saved processed files to /tmp/tmprln4xlsg/tmp_yc97mc3/system.
+2021-12-26 15:14:56,102 [MainThread  ] [INFO ]  Processing files in /tmp/tmprln4xlsg/rouge-tmp-2021-12-26-15-14-56/reference/.
+12/26/2021 15:14:56 - INFO - global -   Processing files in /tmp/tmprln4xlsg/rouge-tmp-2021-12-26-15-14-56/reference/.
+2021-12-26 15:14:56,104 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmprln4xlsg/tmp_yc97mc3/model.
+12/26/2021 15:14:56 - INFO - global -   Saved processed files to /tmp/tmprln4xlsg/tmp_yc97mc3/model.
+2021-12-26 15:14:56,104 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmprln4xlsg/tmpuj5qthga/rouge_conf.xml
+12/26/2021 15:14:56 - INFO - global -   Written ROUGE configuration to /tmp/tmprln4xlsg/tmpuj5qthga/rouge_conf.xml
+2021-12-26 15:14:56,104 [MainThread  ] [INFO ]  Running ROUGE with command /content/SgSum/src/eval/tasks/cnndm/file2rouge/ROUGE-1.5.5.pl -e /content/SgSum/src/eval/tasks/cnndm/file2rouge/data -c 95 -m -r 1000 -n 2 -a /tmp/tmprln4xlsg/tmpuj5qthga/rouge_conf.xml
+12/26/2021 15:14:56 - INFO - global -   Running ROUGE with command /content/SgSum/src/eval/tasks/cnndm/file2rouge/ROUGE-1.5.5.pl -e /content/SgSum/src/eval/tasks/cnndm/file2rouge/data -c 95 -m -r 1000 -n 2 -a /tmp/tmprln4xlsg/tmpuj5qthga/rouge_conf.xml
+[2021-12-26 15:14:56,736 INFO] Rouges rouge-1: 47.580000, rouge-2: 15.560000, rouge-l: 42.560000 at step /roberta_results/test_final_preds
+, elapsed time: 4.636699 s
